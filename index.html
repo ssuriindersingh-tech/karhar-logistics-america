@@ -4,232 +4,514 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Karhar Logistics provides professional truck dispatch support for carriers and owner operators across the USA and Canada.">
+  <meta name="description" content="Karhar Logistics - Professional truck dispatch support, freight coordination and transportation services across USA and Canada.">
+  <meta name="theme-color" content="#31090D">
+
   <title>Karhar Logistics | Truck Dispatch USA & Canada</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header class="header">
   <div class="container nav">
-    <a href="#" class="logo">
-      KARHAR <span>LOGISTICS</span>
+
+    <a href="#home" class="logo">
+      <span class="logo-mark">K</span>
+      <span class="logo-name">KARHAR<small>LOGISTICS</small></span>
     </a>
 
-    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
 
     <nav id="navigation">
       <a href="#home">Home</a>
-      <a href="#about">About</a>
+      <a href="#about">About Us</a>
       <a href="#services">Services</a>
       <a href="#equipment">Equipment</a>
-      <a href="#contact" class="nav-cta">Get Started</a>
+      <a href="#journey">Our Process</a>
+      <a href="#contact" class="nav-cta">Get A Quote</a>
     </nav>
+
   </div>
 </header>
 
+<main>
+
+<!-- HERO SECTION -->
+
 <section class="hero" id="home">
+
+  <div class="hero-overlay"></div>
+
   <div class="container hero-content">
-    <p class="eyebrow">USA & CANADA TRUCK DISPATCH SERVICES</p>
 
-    <h1>
-      Moving Freight.<br>
-      <span>Building Trust.</span>
-    </h1>
+    <div class="hero-text">
 
-    <p class="hero-description">
-      Professional dispatch support for owner operators
-      and trucking companies. We help coordinate freight,
-      negotiate rates and keep your business moving.
-    </p>
+      <p class="eyebrow">USA & CANADA TRUCK DISPATCH SERVICES</p>
 
-    <div class="hero-buttons">
-      <a href="#contact" class="btn">GET DISPATCH SUPPORT →</a>
-      <a href="#services" class="btn-secondary">OUR SERVICES</a>
+      <h1>
+        MOVING FREIGHT.<br>
+        <span>BUILDING TRUST.</span>
+      </h1>
+
+      <p class="hero-description">
+        Professional truck dispatch support for owner-operators
+        and trucking companies. We help coordinate loads,
+        negotiate rates and simplify your freight operations.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#contact" class="btn">GET DISPATCH SUPPORT →</a>
+        <a href="#services" class="btn-secondary">EXPLORE SERVICES</a>
+      </div>
+
+      <div class="hero-location">
+        <span>USA 🇺🇸</span>
+        <span class="gold-divider">|</span>
+        <span>CANADA 🇨🇦</span>
+      </div>
+
     </div>
 
-<div class="truck-scene">
-  <div class="road-label">FREIGHT ON THE MOVE</div>
-  <div class="highway">
-    <div class="road-lines"></div>
-    <div class="moving-truck">🚛</div>
-  </div>
-  <div class="route-labels">
-    <span>USA / CANADA ORIGIN</span>
-    <span>DESTINATION</span>
-  </div>
-</div>
+    <!-- ANIMATED TRUCK -->
 
-    <div class="hero-location">
-      UNITED STATES 🇺🇸 &nbsp; | &nbsp; CANADA 🇨🇦
+    <div class="truck-scene">
+
+      <div class="road-label">FREIGHT ON THE MOVE</div>
+
+      <div class="highway">
+
+        <div class="road-lines"></div>
+
+        <div class="moving-truck">
+          <span>🚛</span>
+        </div>
+
+      </div>
+
+      <div class="route-labels">
+        <span>ORIGIN</span>
+        <span>DESTINATION</span>
+      </div>
+
     </div>
+
   </div>
+
+  <div class="hero-bottom-line"></div>
+
 </section>
+
+<!-- HIGHLIGHTS -->
 
 <section class="stats">
   <div class="container stats-grid">
-    <div><h3>USA</h3><p>Dispatch Support</p></div>
-    <div><h3>CANADA</h3><p>Dispatch Support</p></div>
-    <div><h3>24/7*</h3><p>Communication Support</p></div>
-    <div><h3>ALL TYPES</h3><p>Equipment Support</p></div>
+
+    <div class="stat-item">
+      <h3>USA</h3>
+      <p>Dispatch Support</p>
+    </div>
+
+    <div class="stat-item">
+      <h3>CANADA</h3>
+      <p>Dispatch Support</p>
+    </div>
+
+    <div class="stat-item">
+      <h3>FREIGHT</h3>
+      <p>Load Coordination</p>
+    </div>
+
+    <div class="stat-item">
+      <h3>CARRIERS</h3>
+      <p>Dedicated Support</p>
+    </div>
+
   </div>
 </section>
 
-<section class="section" id="about">
+<!-- ABOUT -->
+
+<section class="section about" id="about">
+
   <div class="container two-column">
-    <div class="about-image"></div>
-    <div>
-      <p class="eyebrow">ABOUT KARHAR LOGISTICS</p>
-      <h2>Your Business Deserves Reliable Dispatch Support.</h2>
-      <p>
-        Karhar Logistics is focused on supporting owner
-        operators and trucking companies with freight
-        coordination and professional dispatch services
-        across the United States and Canada.
-      </p>
-      <p>
-        Our goal is to simplify everyday dispatch operations
-        through clear communication, load coordination
-        and dependable support.
-      </p>
-      <a href="#contact" class="btn">WORK WITH US →</a>
+
+    <div class="about-image">
+      <div class="image-caption">
+        <span>THE ROAD TO BETTER LOGISTICS</span>
+      </div>
     </div>
+
+    <div class="about-content">
+
+      <p class="eyebrow">ABOUT KARHAR LOGISTICS</p>
+
+      <h2>
+        YOUR BUSINESS.<br>
+        <span>OUR DISPATCH SUPPORT.</span>
+      </h2>
+
+      <p>
+        Karhar Logistics focuses on supporting owner-operators
+        and trucking companies with professional dispatch
+        assistance across the United States and Canada.
+      </p>
+
+      <p>
+        From load coordination to broker communication,
+        our goal is to simplify everyday dispatch operations
+        and help carriers stay focused on the road.
+      </p>
+
+      <div class="check-list">
+        <p>✓ Professional dispatch assistance</p>
+        <p>✓ Freight and load coordination</p>
+        <p>✓ USA and Canada market support</p>
+        <p>✓ Clear business communication</p>
+      </div>
+
+      <a href="#contact" class="btn">WORK WITH US →</a>
+
+    </div>
+
   </div>
+
 </section>
+
+<!-- SERVICES -->
 
 <section class="section services" id="services">
+
   <div class="container">
+
     <div class="section-title">
-      <p class="eyebrow">WHAT WE OFFER</p>
-      <h2>Our Dispatch Services</h2>
-      <p>Practical dispatch assistance for trucking businesses.</p>
+      <p class="eyebrow">WHAT WE DO</p>
+      <h2>OUR DISPATCH SERVICES</h2>
+      <p>Reliable support for your everyday trucking operations.</p>
     </div>
 
     <div class="cards">
+
       <article class="card">
         <div class="card-icon">🚛</div>
         <h3>Load Finding</h3>
-        <p>Finding suitable freight opportunities based on equipment and preferred lanes.</p>
+        <p>Identify suitable freight opportunities based on equipment, preferred lanes and carrier requirements.</p>
       </article>
 
       <article class="card">
         <div class="card-icon">🤝</div>
         <h3>Rate Negotiation</h3>
-        <p>Assistance with rate discussions and load booking decisions.</p>
+        <p>Assistance with rate discussions and evaluating load booking opportunities.</p>
       </article>
 
       <article class="card">
         <div class="card-icon">📋</div>
         <h3>Load Booking</h3>
-        <p>Coordination of load bookings and rate confirmations.</p>
+        <p>Coordination of load bookings, rate confirmations and dispatch details.</p>
       </article>
 
       <article class="card">
         <div class="card-icon">📍</div>
         <h3>Load Tracking</h3>
-        <p>Pickup, delivery and shipment communication support.</p>
+        <p>Shipment communication and coordination of pickup and delivery updates.</p>
       </article>
 
       <article class="card">
         <div class="card-icon">📞</div>
         <h3>Broker Communication</h3>
-        <p>Professional communication with brokers and relevant parties.</p>
+        <p>Professional communication support with freight brokers and relevant parties.</p>
       </article>
 
       <article class="card">
         <div class="card-icon">📑</div>
         <h3>Documentation</h3>
-        <p>Assistance coordinating rate confirmations, BOL and POD documents.</p>
+        <p>Assistance coordinating rate confirmations, bills of lading and proof of delivery.</p>
       </article>
+
     </div>
+
   </div>
+
 </section>
 
+<!-- EQUIPMENT -->
+
 <section class="section equipment" id="equipment">
+
   <div class="container">
+
     <div class="section-title">
       <p class="eyebrow">OUR EQUIPMENT</p>
-      <h2>What We Dispatch</h2>
-      <p>Dispatch coordination for different trucking equipment.</p>
+      <h2>EQUIPMENT WE SUPPORT</h2>
+      <p>Dispatch coordination for different types of trucking equipment.</p>
     </div>
 
     <div class="equipment-grid">
-      <div class="equipment-card">🚛<h3>Dry Van</h3></div>
-      <div class="equipment-card">❄️<h3>Reefer</h3></div>
-      <div class="equipment-card">🚚<h3>Flatbed</h3></div>
-      <div class="equipment-card">🏗️<h3>Step Deck</h3></div>
-      <div class="equipment-card">🚛<h3>Power Only</h3></div>
-      <div class="equipment-card">📦<h3>Box Truck</h3></div>
+
+      <div class="equipment-card">
+        <span>🚛</span>
+        <h3>Dry Van</h3>
+      </div>
+
+      <div class="equipment-card">
+        <span>❄️</span>
+        <h3>Reefer</h3>
+      </div>
+
+      <div class="equipment-card">
+        <span>🚚</span>
+        <h3>Flatbed</h3>
+      </div>
+
+      <div class="equipment-card">
+        <span>🏗️</span>
+        <h3>Step Deck</h3>
+      </div>
+
+      <div class="equipment-card">
+        <span>🚛</span>
+        <h3>Power Only</h3>
+      </div>
+
+      <div class="equipment-card">
+        <span>📦</span>
+        <h3>Box Truck</h3>
+      </div>
+
     </div>
+
   </div>
+
 </section>
+
+<!-- BOOKING TO DELIVERY -->
+
+<section class="section journey-section" id="journey">
+
+  <div class="container">
+
+    <div class="section-title">
+      <p class="eyebrow">OUR WORKFLOW</p>
+      <h2>FROM BOOKING TO DELIVERY</h2>
+      <p>Every shipment follows a coordinated journey from pickup to final delivery.</p>
+    </div>
+
+    <div class="journey-road">
+
+      <div class="journey-progress"></div>
+
+      <div class="journey-truck">🚛</div>
+
+    </div>
+
+    <div class="journey-grid">
+
+      <article class="journey-step active">
+        <div class="step-icon">📝</div>
+        <span>STEP 01</span>
+        <h3>Booking</h3>
+        <p>Load requirements received and booking coordinated.</p>
+      </article>
+
+      <article class="journey-step">
+        <div class="step-icon">📦</div>
+        <span>STEP 02</span>
+        <h3>Pickup</h3>
+        <p>Truck arrives at the pickup location and freight is collected.</p>
+      </article>
+
+      <article class="journey-step">
+        <div class="step-icon">🚛</div>
+        <span>STEP 03</span>
+        <h3>In Transit</h3>
+        <p>Freight travels towards its destination with shipment coordination.</p>
+      </article>
+
+      <article class="journey-step">
+        <div class="step-icon">📍</div>
+        <span>STEP 04</span>
+        <h3>Delivery</h3>
+        <p>Freight reaches its destination and delivery is coordinated.</p>
+      </article>
+
+      <article class="journey-step">
+        <div class="step-icon">🏆</div>
+        <span>STEP 05</span>
+        <h3>Completed</h3>
+        <p>Delivery confirmation and POD documentation coordinated.</p>
+      </article>
+
+    </div>
+
+    <p class="journey-note">
+      Illustrative workflow animation. This is not live shipment tracking.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- WHY CHOOSE US -->
+
+<section class="section why-us">
+
+  <div class="container">
+
+    <div class="section-title">
+      <p class="eyebrow">WHY KARHAR LOGISTICS</p>
+      <h2>BUILT AROUND YOUR BUSINESS</h2>
+    </div>
+
+    <div class="why-grid">
+
+      <div class="why-item">
+        <span>🌎</span>
+        <h3>North American Focus</h3>
+        <p>Dispatch support for carriers operating in USA and Canada markets.</p>
+      </div>
+
+      <div class="why-item">
+        <span>🤝</span>
+        <h3>Professional Support</h3>
+        <p>Clear communication and coordination throughout the dispatch process.</p>
+      </div>
+
+      <div class="why-item">
+        <span>📈</span>
+        <h3>Carrier Focused</h3>
+        <p>Support aligned with your equipment, preferred lanes and operating needs.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CTA -->
 
 <section class="cta">
+
   <div class="container">
+
     <p class="eyebrow">LET'S MOVE FORWARD</p>
-    <h2>Ready to Grow Your Trucking Business?</h2>
-    <p>Connect with Karhar Logistics and discuss your dispatch requirements.</p>
+
+    <h2>READY TO KEEP YOUR TRUCKS MOVING?</h2>
+
+    <p>Let's discuss your dispatch requirements and business goals.</p>
+
     <a href="#contact" class="btn">GET STARTED TODAY →</a>
+
   </div>
+
 </section>
 
+<!-- CONTACT -->
+
 <section class="section contact" id="contact">
+
   <div class="container contact-grid">
-    <div>
-      <p class="eyebrow">CONTACT OUR TEAM</p>
-      <h2>Let's Talk About Your Dispatch Needs.</h2>
+
+    <div class="contact-info">
+
+      <p class="eyebrow">CONTACT KARHAR LOGISTICS</p>
+
+      <h2>LET'S TALK ABOUT YOUR DISPATCH NEEDS.</h2>
+
       <p>
-        Tell us about your trucking operation.
-        Our team can discuss the dispatch support you need.
+        Are you an owner-operator or trucking company
+        looking for dispatch support?
+        Send us your details to discuss your requirements.
       </p>
-      <p><strong>Service Area:</strong> USA & Canada</p>
-      <p><strong>Email:</strong> YOUR_EMAIL@example.com</p>
+
+      <div class="contact-detail">
+        <strong>EMAIL</strong>
+        <span>YOUR_EMAIL@example.com</span>
+      </div>
+
+      <div class="contact-detail">
+        <strong>SERVICE AREA</strong>
+        <span>United States & Canada</span>
+      </div>
+
+      <div class="contact-detail">
+        <strong>BUSINESS</strong>
+        <span>Truck Dispatch & Freight Coordination</span>
+      </div>
+
     </div>
 
-    <form action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST">
-      <h3>Request Dispatch Services</h3>
+    <form id="contactForm" action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST">
+
+      <h3>REQUEST DISPATCH SERVICES</h3>
 
       <input type="hidden" name="_subject" value="New Karhar Logistics Inquiry">
 
-      <input name="name" placeholder="Full Name" required>
-      <input name="email" type="email" placeholder="Email Address" required>
-      <input name="phone" type="tel" placeholder="Phone Number" required>
+      <input type="text" name="name" placeholder="Full Name" required>
+
+      <input type="email" name="email" placeholder="Business Email" required>
+
+      <input type="tel" name="phone" placeholder="Phone / WhatsApp Number" required>
 
       <select name="country" required>
         <option value="">Select Country</option>
-        <option>USA</option>
-        <option>Canada</option>
+        <option value="USA">United States</option>
+        <option value="Canada">Canada</option>
       </select>
 
       <select name="equipment" required>
-        <option value="">Select Equipment</option>
+        <option value="">Select Equipment Type</option>
         <option>Dry Van</option>
         <option>Reefer</option>
         <option>Flatbed</option>
         <option>Step Deck</option>
         <option>Power Only</option>
         <option>Box Truck</option>
+        <option>Other</option>
       </select>
 
-      <input name="trucks" type="number" min="1" placeholder="Number of Trucks">
+      <input type="number" name="trucks" min="1" placeholder="Number of Trucks">
 
-      <textarea name="message" placeholder="Your Requirements"></textarea>
+      <textarea name="message" placeholder="Tell us about your requirements"></textarea>
 
       <button type="submit" class="btn">SUBMIT INQUIRY →</button>
+
     </form>
+
   </div>
+
 </section>
 
+</main>
+
+<!-- FOOTER -->
+
 <footer>
+
   <div class="container footer">
+
     <div>
-      <a href="#" class="logo">KARHAR <span>LOGISTICS</span></a>
+      <a href="#home" class="logo">
+        KARHAR <span>LOGISTICS</span>
+      </a>
       <p>Professional Truck Dispatch Support | USA & Canada</p>
     </div>
-    <p>© <span id="year"></span> Karhar Logistics. All Rights Reserved.</p>
+
+    <div class="footer-right">
+      <p>© <span id="year"></span> Karhar Logistics.</p>
+      <p>All Rights Reserved.</p>
+    </div>
+
   </div>
+
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
